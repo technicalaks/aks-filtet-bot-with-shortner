@@ -25,7 +25,7 @@ class Bot(Client):
             api_hash=API_HASH,
             bot_token=BOT_TOKEN,
             workers=50,
-            plugins=velentina
+            plugins={"root": "velentina"},
             sleep_threshold=5,
         )
 

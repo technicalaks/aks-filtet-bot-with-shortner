@@ -1,7 +1,7 @@
 if [ -z $UPSTREAM_REPO ]
 then
   echo "Cloning main Repository"
-  git clone https://github.com/technicalaks/aks-filtet-bot-with-shortner.git
+  git clone https://github.com/technicalaks/aks-filtet-bot-with-shortner.git /Eva
 else
   echo "Cloning Custom Repo from $UPSTREAM_REPO "
   git clone $UPSTREAM_REPO /Eva
